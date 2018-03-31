@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  chomik:
+    build: .
+    container_name: chomik
+    volumes:
+      - .:/app
